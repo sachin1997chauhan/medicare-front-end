@@ -1,0 +1,24 @@
+<mat-card>
+    <div class="bootstrap-wrapper">
+        <div class="container-fluid">
+            <div class="text-center">
+    <img [src]="product.imageURL" alt="image"></div>
+    <br>
+    <hr>
+    <br>
+    <mat-card>
+        <b>Name : </b>{{product.name}} <br>
+        <b>Category : </b>{{product.category}} <br>
+        <b>Price : </b>{{product.price}} <br>
+        <b>Quantity : </b>{{product.quantity}} <br>
+        <b>Seller : </b>{{product.seller}} <br>
+        <b>Description : </b>{{product.descr}} <br>
+
+    </mat-card><br>
+      
+    <button mat-raised-button color="primary"  (click)="openDialog()">Edit Product</button>
+    </div>
+    </div> 
+    <br>
+    <br>
+</mat-card><br>

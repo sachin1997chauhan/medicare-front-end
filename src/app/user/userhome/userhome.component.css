@@ -1,0 +1,32 @@
+.example-card {
+    max-width: 300px;
+    background-color: #b8e994;
+  }
+ .example-full-width{
+   width:25%;
+ }
+.d-flex {
+  display: flex !important;
+}
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+
+  #carouselExampleIndicators{
+    height: 50vh;
+  }
+  
+  #carouselExampleIndicators img{
+    height: 50vh;
+  }
+
+
+
+  .mat-card img{
+    height:250px;
+    width: 100%;
+    object-fit:cover;
+  }
